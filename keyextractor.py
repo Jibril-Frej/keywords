@@ -49,7 +49,8 @@ def read_odt(path):
 
 
 def save_keywords(keywords, file_name):
-    """
+    """Save the keywords in a csv file
+
     :param keywords: dictionnary keywords score pairs
     :type keywords: dict
     :param file_name: name of the csv file to save the keywords
